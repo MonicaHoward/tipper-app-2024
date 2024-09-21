@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+   background-image: url("https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+   height: 100vh;
+   background-position: center;
+   background-size: contain;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 2%;
+    background-color: rgba(251, 252, 252, 0.723);
+}
